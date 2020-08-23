@@ -1,4 +1,4 @@
-describe("on the NDTV's website", () => {
+describe("Using Wheather API", () => {
     const CITY = "Allahabad";
 
     it('I should be able to make an API call to fetch city temperature', () => {
