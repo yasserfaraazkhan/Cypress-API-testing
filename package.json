@@ -1,0 +1,20 @@
+{
+  "name": "cypress_ui_api",
+  "version": "1.0.0",
+  "description": "this project is working example for UI and Api automation using cypress",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "API",
+    "cypress",
+    "automation"
+  ],
+  "author": "yasser",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.11.0"
+  }
+}
