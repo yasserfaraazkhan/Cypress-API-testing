@@ -1,4 +1,11 @@
 # Cypress-API-testing
+To run,
+```
+clone the repository
+npm install
+npm run test // to run headless
+npm run open // to open cypress
+```
 This Repository contains API and UI spec.
 Common methods to locate elements and assert
 Common method to make API request
@@ -19,3 +26,4 @@ Cypress.Commands.add('makeRequest', (method, queryParameter) => {
 });
 
 ```
+This can be modified to accept different metric value, if needed, path variable too
